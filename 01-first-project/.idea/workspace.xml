@@ -20,19 +20,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1e517b6-ced2-43cb-af77-0c50feb43293" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/Dialogs/DialogItem/DialogItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/Dialogs/Dialogs.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/Dialogs/Message/Message.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/Music/Music.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/Music/Music.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/News/News.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/News/News.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/Profile/ProfileInfo/ProfileInfo.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/Settings/Settings.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/Settings/Settings.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Navbar/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/Navbar/Navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Navbar/Navbar.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/components/Profile/MyPosts/MyPosts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Profile/MyPosts/MyPosts.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/Profile/MyPosts/Post/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Profile/MyPosts/Post/Post.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/Profile/MyPosts/Post/Post.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Profile/MyPosts/Post/Post.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Profile/Profile.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/components/Profile/Profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Profile/Profile.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -47,20 +72,23 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/my-app/src/components/Profile/MyPosts/Post" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/my-app/src/components/Dialogs/DialogItem" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\rusik\Desktop\projects\reactkabzda\samurai\01-first-project\my-app\src\components\Profile\MyPosts\Post" />
-      <recent name="C:\Users\rusik\Desktop\projects\reactkabzda\samurai\01-first-project\my-app\src\components\Profile\MyPosts" />
-      <recent name="C:\Users\rusik\Desktop\projects\reactkabzda\samurai\01-first-project\my-app\src\components" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\rusik\Desktop\projects\reactkabzda\samurai\01-first-project\my-app\src\components\Profile" />
       <recent name="C:\Users\rusik\Desktop\projects\reactkabzda\samurai\01-first-project\my-app\src\components\Navbar" />
       <recent name="C:\Users\rusik\Desktop\projects\reactkabzda\samurai\01-first-project\my-app\src\components\Header" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rusik\Desktop\projects\reactkabzda\samurai\01-first-project\my-app\src\components\Dialogs\DialogItem" />
+      <recent name="C:\Users\rusik\Desktop\projects\reactkabzda\samurai\01-first-project\my-app\src\components\Dialogs\Message" />
+      <recent name="C:\Users\rusik\Desktop\projects\reactkabzda\samurai\01-first-project\my-app\src\components\Profile\ProfileInfo" />
+      <recent name="C:\Users\rusik\Desktop\projects\reactkabzda\samurai\01-first-project\my-app\src\components\Settings" />
+      <recent name="C:\Users\rusik\Desktop\projects\reactkabzda\samurai\01-first-project\my-app\src\components\News" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -74,6 +102,17 @@
       <workItem from="1616324652097" duration="14026000" />
       <workItem from="1616591922553" duration="6190000" />
       <workItem from="1617033049666" duration="4956000" />
+      <workItem from="1617045219569" duration="1029000" />
+      <workItem from="1617355123758" duration="6245000" />
+      <workItem from="1617550788259" duration="1002000" />
+      <workItem from="1617792763450" duration="1613000" />
+      <workItem from="1617871773869" duration="11861000" />
+      <workItem from="1618923291650" duration="1886000" />
+      <workItem from="1619359750288" duration="64000" />
+      <workItem from="1622551074201" duration="3067000" />
+      <workItem from="1625043222677" duration="25638000" />
+      <workItem from="1625306296511" duration="3184000" />
+      <workItem from="1625562800459" duration="4219000" />
     </task>
     <servers />
   </component>
@@ -93,9 +132,13 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1616341712853">
+    <state x="277" y="99" key="SettingsEditor" timestamp="1625070195212">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup/0.43.1536.821@0.43.1536.821" timestamp="1616341712853" />
+    <state x="277" y="99" key="SettingsEditor/0.43.1536.821@0.43.1536.821" timestamp="1625070195212" />
+    <state x="430" y="186" width="672" height="678" key="search.everywhere.popup" timestamp="1625054682665">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state x="430" y="186" width="672" height="678" key="search.everywhere.popup/0.43.1536.821@0.43.1536.821" timestamp="1625054682665" />
   </component>
 </project>
