@@ -1,44 +1,26 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
+import React from 'react';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import store from "./redux/state";
+import App from './App';
+import {BrowserRouter} from "react-router-dom";
+
+let rerenderEntireTree = (state) => {
+    ReactDOM.render(
+        <BrowserRouter>
+            <React.StrictMode>
+                <App state={state} dispatch={store.dispatch.bind(store)} />
+            </React.StrictMode>,
+        </BrowserRouter>,
+        document.getElementById('root')
+    );
+}
 
 
-let posts = [
-    {id: 1, message: 'Hi, how are you?', likesCount: 12},
-    {id: 2, message: 'It\'s my first post', likesCount: 11},
-    {id: 3, message: 'I wanna have another post', likesCount: 10},
-    {id: 4, message: 'And another one', likesCount: 5}
+rerenderEntireTree(store.getState());
 
-]
-
-let dialogs = [
-    {id: 1, name: 'Ruslan'},
-    {id: 2, name: 'OlgaMish'},
-    {id: 3, name: 'Oleg'},
-    {id: 4, name: 'Dimitri'},
-    {id: 5, name: 'Alexandr'},
-    {id: 6, name: 'Tatiana'}
-]
-
-let messages = [
-    {id: 1, message: 'Hi'},
-    {id: 2, message: 'How is your dog'},
-    {id: 3, message: 'HAIUHAI'},
-    {id: 4, message: 'Where is my peni'},
-    {id: 5, message: 'Mikelandgelo is failed'},
-    {id: 6, message: 'kak Bozenka molvil'}
-]
-
-
-ReactDOM.render(
-  <React.StrictMode>
-    <App posts={posts} dialogs={dialogs} messages={messages}/>
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
+store.subscribe(rerenderEntireTree);
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals

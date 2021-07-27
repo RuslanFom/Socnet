@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,31 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1e517b6-ced2-43cb-af77-0c50feb43293" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/Dialogs/DialogItem/DialogItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/Dialogs/Dialogs.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/Dialogs/Message/Message.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/Music/Music.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/Music/Music.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/News/News.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/News/News.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/Profile/ProfileInfo/ProfileInfo.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/Settings/Settings.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/Settings/Settings.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/redux/state.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Navbar/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/Navbar/Navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Navbar/Navbar.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/Profile/MyPosts/MyPosts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Profile/MyPosts/MyPosts.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Profile/Profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/Profile/Profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Profile/Profile.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,24 +57,35 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/my-app/src/components/Dialogs/DialogItem" />
+    <property name="js.last.introduce.type" value="LET" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/my-app/src" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rusik\Desktop\projects\reactkabzda\samurai\01-first-project\my-app\src" />
+      <recent name="C:\Users\rusik\Desktop\projects\reactkabzda\samurai\01-first-project\my-app\src\components\Dialogs\DialogItem" />
+      <recent name="C:\Users\rusik\Desktop\projects\reactkabzda\samurai\01-first-project\my-app\src\components\Dialogs\Message" />
+      <recent name="C:\Users\rusik\Desktop\projects\reactkabzda\samurai\01-first-project\my-app\src\components\Profile\ProfileInfo" />
+      <recent name="C:\Users\rusik\Desktop\projects\reactkabzda\samurai\01-first-project\my-app\src\components\Settings" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\rusik\Desktop\projects\reactkabzda\samurai\01-first-project\my-app\src\components\Profile" />
       <recent name="C:\Users\rusik\Desktop\projects\reactkabzda\samurai\01-first-project\my-app\src\components\Navbar" />
       <recent name="C:\Users\rusik\Desktop\projects\reactkabzda\samurai\01-first-project\my-app\src\components\Header" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\rusik\Desktop\projects\reactkabzda\samurai\01-first-project\my-app\src\components\Dialogs\DialogItem" />
-      <recent name="C:\Users\rusik\Desktop\projects\reactkabzda\samurai\01-first-project\my-app\src\components\Dialogs\Message" />
-      <recent name="C:\Users\rusik\Desktop\projects\reactkabzda\samurai\01-first-project\my-app\src\components\Profile\ProfileInfo" />
-      <recent name="C:\Users\rusik\Desktop\projects\reactkabzda\samurai\01-first-project\my-app\src\components\Settings" />
-      <recent name="C:\Users\rusik\Desktop\projects\reactkabzda\samurai\01-first-project\my-app\src\components\News" />
-    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="App.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/my-app/src/App.js" working-dir="$PROJECT_DIR$/my-app/src">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.App.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -112,7 +108,14 @@
       <workItem from="1622551074201" duration="3067000" />
       <workItem from="1625043222677" duration="25638000" />
       <workItem from="1625306296511" duration="3184000" />
-      <workItem from="1625562800459" duration="4219000" />
+      <workItem from="1625562800459" duration="15189000" />
+      <workItem from="1625905825401" duration="4664000" />
+      <workItem from="1625910595706" duration="12612000" />
+      <workItem from="1626264267846" duration="7377000" />
+      <workItem from="1626599229183" duration="4875000" />
+      <workItem from="1626946207333" duration="14440000" />
+      <workItem from="1627120254273" duration="6531000" />
+      <workItem from="1627383922717" duration="11500000" />
     </task>
     <servers />
   </component>
@@ -132,13 +135,41 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="277" y="99" key="SettingsEditor" timestamp="1625070195212">
+    <state width="1515" height="209" key="GridCell.Tab.0.bottom" timestamp="1625910535210">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="277" y="99" key="SettingsEditor/0.43.1536.821@0.43.1536.821" timestamp="1625070195212" />
-    <state x="430" y="186" width="672" height="678" key="search.everywhere.popup" timestamp="1625054682665">
+    <state width="1515" height="209" key="GridCell.Tab.0.bottom/0.43.1536.821@0.43.1536.821" timestamp="1625910535210" />
+    <state width="1515" height="209" key="GridCell.Tab.0.center" timestamp="1625910535210">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="430" y="186" width="672" height="678" key="search.everywhere.popup/0.43.1536.821@0.43.1536.821" timestamp="1625054682665" />
+    <state width="1515" height="209" key="GridCell.Tab.0.center/0.43.1536.821@0.43.1536.821" timestamp="1625910535210" />
+    <state width="1515" height="209" key="GridCell.Tab.0.left" timestamp="1625910535210">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state width="1515" height="209" key="GridCell.Tab.0.left/0.43.1536.821@0.43.1536.821" timestamp="1625910535210" />
+    <state width="1515" height="209" key="GridCell.Tab.0.right" timestamp="1625910535210">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state width="1515" height="209" key="GridCell.Tab.0.right/0.43.1536.821@0.43.1536.821" timestamp="1625910535210" />
+    <state x="496" y="156" key="RollbackChangesDialog" timestamp="1625909603530">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state x="496" y="156" key="RollbackChangesDialog/0.43.1536.821@0.43.1536.821" timestamp="1625909603530" />
+    <state width="254" height="198" key="RunAnythingAction_Filter_Popup" timestamp="1625909595507">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state width="254" height="198" key="RunAnythingAction_Filter_Popup/0.43.1536.821@0.43.1536.821" timestamp="1625909595507" />
+    <state x="277" y="99" key="SettingsEditor" timestamp="1627384255818">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state x="277" y="99" key="SettingsEditor/0.43.1536.821@0.43.1536.821" timestamp="1627384255818" />
+    <state x="711" y="159" key="run.anything.popup" timestamp="1627406334424">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state x="711" y="159" key="run.anything.popup/0.43.1536.821@0.43.1536.821" timestamp="1627406334424" />
+    <state x="430" y="186" width="672" height="678" key="search.everywhere.popup" timestamp="1627385151445">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state x="430" y="186" width="672" height="678" key="search.everywhere.popup/0.43.1536.821@0.43.1536.821" timestamp="1627385151445" />
   </component>
 </project>
