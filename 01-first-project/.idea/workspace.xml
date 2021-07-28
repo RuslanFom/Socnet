@@ -23,10 +23,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1e517b6-ced2-43cb-af77-0c50feb43293" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/my-app/src/redux/dialogsReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/redux/profileReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/redux/redux-store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/redux/sidebarReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/redux/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Profile/Profile.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/redux/state.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +65,7 @@
     <property name="js.last.introduce.type" value="LET" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/my-app/src" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -111,7 +120,8 @@
       <workItem from="1626599229183" duration="4875000" />
       <workItem from="1626946207333" duration="14440000" />
       <workItem from="1627120254273" duration="6531000" />
-      <workItem from="1627383922717" duration="13533000" />
+      <workItem from="1627383922717" duration="14801000" />
+      <workItem from="1627462563146" duration="12076000" />
     </task>
     <servers />
   </component>
@@ -155,14 +165,14 @@
       <screen x="0" y="43" width="1536" height="821" />
     </state>
     <state width="254" height="198" key="RunAnythingAction_Filter_Popup/0.43.1536.821@0.43.1536.821" timestamp="1625909595507" />
-    <state x="277" y="99" key="SettingsEditor" timestamp="1627384255818">
+    <state x="277" y="99" key="SettingsEditor" timestamp="1627475681681">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="277" y="99" key="SettingsEditor/0.43.1536.821@0.43.1536.821" timestamp="1627384255818" />
-    <state x="711" y="159" key="run.anything.popup" timestamp="1627406334424">
+    <state x="277" y="99" key="SettingsEditor/0.43.1536.821@0.43.1536.821" timestamp="1627475681681" />
+    <state x="711" y="159" key="run.anything.popup" timestamp="1627483834268">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="711" y="159" key="run.anything.popup/0.43.1536.821@0.43.1536.821" timestamp="1627406334424" />
+    <state x="711" y="159" key="run.anything.popup/0.43.1536.821@0.43.1536.821" timestamp="1627483834268" />
     <state x="430" y="186" width="672" height="678" key="search.everywhere.popup" timestamp="1627385151445">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
