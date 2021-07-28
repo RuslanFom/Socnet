@@ -23,19 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1e517b6-ced2-43cb-af77-0c50feb43293" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/my-app/src/redux/dialogsReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/redux/profileReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/redux/redux-store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/redux/sidebarReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/redux/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/Dialogs/DialogsContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/Profile/MyPosts/MyPostsContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Profile/Profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/redux/state.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,23 +57,24 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="js.last.introduce.type" value="LET" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/my-app/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/my-app/src/components/Dialogs" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\rusik\Desktop\projects\reactkabzda\samurai\01-first-project\my-app\src" />
-      <recent name="C:\Users\rusik\Desktop\projects\reactkabzda\samurai\01-first-project\my-app\src\components\Dialogs\DialogItem" />
-      <recent name="C:\Users\rusik\Desktop\projects\reactkabzda\samurai\01-first-project\my-app\src\components\Dialogs\Message" />
-      <recent name="C:\Users\rusik\Desktop\projects\reactkabzda\samurai\01-first-project\my-app\src\components\Profile\ProfileInfo" />
-      <recent name="C:\Users\rusik\Desktop\projects\reactkabzda\samurai\01-first-project\my-app\src\components\Settings" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\rusik\Desktop\projects\reactkabzda\samurai\01-first-project\my-app\src\components\Profile" />
       <recent name="C:\Users\rusik\Desktop\projects\reactkabzda\samurai\01-first-project\my-app\src\components\Navbar" />
       <recent name="C:\Users\rusik\Desktop\projects\reactkabzda\samurai\01-first-project\my-app\src\components\Header" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rusik\Desktop\projects\reactkabzda\samurai\01-first-project\my-app\src\components\Dialogs" />
+      <recent name="C:\Users\rusik\Desktop\projects\reactkabzda\samurai\01-first-project\my-app\src\components\Profile\MyPosts" />
+      <recent name="C:\Users\rusik\Desktop\projects\reactkabzda\samurai\01-first-project\my-app\src" />
+      <recent name="C:\Users\rusik\Desktop\projects\reactkabzda\samurai\01-first-project\my-app\src\components\Dialogs\DialogItem" />
+      <recent name="C:\Users\rusik\Desktop\projects\reactkabzda\samurai\01-first-project\my-app\src\components\Dialogs\Message" />
     </key>
   </component>
   <component name="RunManager">
@@ -121,7 +116,7 @@
       <workItem from="1626946207333" duration="14440000" />
       <workItem from="1627120254273" duration="6531000" />
       <workItem from="1627383922717" duration="14801000" />
-      <workItem from="1627462563146" duration="12076000" />
+      <workItem from="1627462563146" duration="18966000" />
     </task>
     <servers />
   </component>
