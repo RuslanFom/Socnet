@@ -20,4 +20,5 @@ const ProfileInfo = (props) => {
         </div>
     )
 }
+
 export default ProfileInfo;
