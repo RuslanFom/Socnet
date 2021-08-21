@@ -9,3 +9,11 @@
     object-fit: cover;
     background-color: whitesmoke;
 }
+
+.loginBlock {
+    float: right;
+}
+
+.loginBlock a {
+    color: black;
+}
