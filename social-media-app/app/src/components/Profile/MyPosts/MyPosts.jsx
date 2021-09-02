@@ -8,8 +8,12 @@ import {Textarea} from "../../common/FormsControls/FormsControls";
 
 const maxLength10 = maxLengthCreator(10);
 
-const MyPosts = (props) => {
-    let postsElements = props.posts.map ( p => <Post message={p.message} likesCount={p.likesCount}/> );
+
+const MyPosts = React.memo(props => {
+
+    let postsElements =
+        props.posts.map(p => <Post message={p.message}
+                                   likesCount={p.likesCount}/>);
 
     let newPostElement = React.createRef();
 
@@ -26,9 +30,9 @@ const MyPosts = (props) => {
             <div className={s.posts}>
                 {postsElements}
             </div>
-        </div>)
-
-}
+        </div>
+    )
+});
 
 let AddNewPostForm = (props) => {
     return (
@@ -49,3 +53,17 @@ let AddNewPostForm = (props) => {
 const AddNewPostFormRedux = reduxForm({form: "ProfileAddNewPostForm"})(AddNewPostForm);
 
 export default MyPosts;
+
+
+
+
+
+
+
+/*
+Для классовой компоненты для оптимизации используем:
+shouldComponentUpdate(nextProps, nextState) {
+   return nextProps != this.props || nextState != this.state;
+
+Для функциональной: React.memo()
+}*/
