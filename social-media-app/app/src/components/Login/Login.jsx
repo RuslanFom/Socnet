@@ -10,9 +10,9 @@ import styles from "./../common/FormsControls/FormsControls.module.css"
 
 const maxLength25 = maxLengthCreator(25);
 
-const LoginForm = (props) => {
+const LoginForm = ({handleSubmit, error}) => {
     return (
-        <form onSubmit={props.handleSubmit}>
+        <form onSubmit={handleSubmit}>
             <div>
                 <Field placeholder={"Email"}
                        validate={[required, maxLength25]}
@@ -31,8 +31,8 @@ const LoginForm = (props) => {
                        name={"rememberMe"}
                        type={"checkbox"}/>remember me
             </div>
-            {props.error && <div className={styles.formSummeryError}>
-                {props.error}
+            {error && <div className={styles.formSummeryError}>
+                {error}
             </div>}
             <div>
                 <button>Login</button>

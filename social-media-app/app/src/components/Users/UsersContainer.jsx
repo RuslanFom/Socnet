@@ -18,20 +18,20 @@ import {
 } from "../../redux/users-selectors";
 
 
-
-
 class UsersContainer extends React.Component {
     componentDidMount() {
-        this.props.getUsers(this.props.currentPage, this.props.pageSize);
+        const {currentPage, pageSize} = this.props;
+        this.props.getUsers(currentPage, pageSize);
     }
 
     onPageChanged = (pageNumber) => {
-        this.props.getUsers(pageNumber, this.props.pageSize);
+        const {pageSize} = this.props;
+        this.props.getUsers(pageNumber, pageSize);
     }
 
     render() {
         return <>
-            {this.props.isFetching ? <Preloader /> : null }
+            {this.props.isFetching ? <Preloader/> : null}
             <Users totalUsersCount={this.props.totalUsersCount}
                    pageSize={this.props.pageSize}
                    currentPage={this.props.currentPage}
@@ -46,7 +46,9 @@ class UsersContainer extends React.Component {
     }
 }
 
-/*let mapStateToProps = (state) => {
+/*
+---------------------------------------------------------------
+let mapStateToProps = (state) => {
     return {
         users: state.usersPage.users,
         pageSize: state.usersPage.pageSize,
@@ -55,7 +57,10 @@ class UsersContainer extends React.Component {
         isFetching: state.usersPage.isFetching,
         followingInProgress: state.usersPage.followingInProgress
     }
-}*/
+}
+---------------------------------------------------------------
+This things put into selectors/Загнал это дело в селекторы ^^^^^
+*/
 
 let mapStateToProps = (state) => {
     return {
@@ -72,5 +77,6 @@ export default compose(
     connect(mapStateToProps, {
         follow, unfollow,
         setCurrentPage,
-        toggleFollowingProgress, getUsers: requestUsers})
+        toggleFollowingProgress, getUsers: requestUsers
+    })
 )(UsersContainer);

@@ -2,7 +2,7 @@ import profileReducer from "./profileReducer";
 import dialogsReducer from "./dialogsReducer";
 import sidebarReducer from "./sidebarReducer";
 
-let store = {
+let analogOfReduxStore = {
     _state : {
         profilePage: {
             posts: [
@@ -55,9 +55,9 @@ let store = {
     }
 }
 
-window.store = store;
+window.store = analogOfReduxStore;
 
-export default store;
+export default analogOfReduxStore;
 
 
-//store is OOP
+//analogOfReduxStore is OOP
