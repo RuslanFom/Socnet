@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Socnet.iml" filepath="$PROJECT_DIR$/.idea/Socnet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../socnet/.idea/socnet.iml" filepath="$PROJECT_DIR$/../socnet/.idea/socnet.iml" />
     </modules>
   </component>
 </project>
