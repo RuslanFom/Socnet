@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/components/common/Paginator/Paginator.module.css","webpack://src/components/Users/users.module.css"],"names":[],"mappings":"AAAA,+BACI,eAEJ,CCHA,wBACI,WAAY,CACZ,YACJ","file":"6.4e449ced.chunk.css","sourcesContent":[".selectedPage {\n    font-weight: bold;\n\n}",".userPhoto {\n    width: 160px;\n    height: 180px;\n}\n\n\n"]}
