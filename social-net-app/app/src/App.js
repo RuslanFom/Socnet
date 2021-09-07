@@ -1,5 +1,5 @@
 import React, {Suspense} from 'react';
-import {BrowserRouter, Route, withRouter} from "react-router-dom";
+import {BrowserRouter, Redirect, Route, Switch, withRouter} from "react-router-dom";
 import './App.css';
 import Navbar from "./components/Navbar/Navbar";
 import {connect, Provider} from "react-redux";
@@ -39,22 +39,25 @@ class App extends React.Component {
                 <HeaderContainer/>
                 <Navbar/>
                 <div className='app-wrapper-content'>
-                    <Suspense fallback={<Preloader />}>
-                    <Route path='/login'
-                           render={() => <LoginPage/>}/>
-                    <Route path='/dialogs'
-                           render={() => <DialogsContainer/>}/>
-                    <Route path='/profile/:userId?'
-                           render={() => <ProfileContainer/>}/> {/*":userId?" - для уточнения опционального параметра и указания "?" что он не обязательный*/}
-                    <Route path='/users'
-                           render={() => <UsersContainer/>}/>
-                    <Route path='/music'
-                           render={() => <Music/>}/>
-                    <Route path='/news'
-                           render={() => <News/>}/>
-                    <Route path='/settings'
-                           render={() => <Settings/>}/>
-                    </Suspense>
+                    <Switch>
+                        <Suspense fallback={<Preloader/>}>
+                            <Redirect from="/" to="/profile" />
+                            <Route path='/login'
+                                   render={() => <LoginPage/>}/>
+                            <Route path='/dialogs'
+                                   render={() => <DialogsContainer/>}/>
+                            <Route path='/profile/:userId?'
+                                   render={() => <ProfileContainer/>}/>                  {/*":userId?" - для уточнения опционального параметра и указания "?" что он не обязательный*/}
+                            <Route path='/users'
+                                   render={() => <UsersContainer/>}/>
+                            <Route path='/music'
+                                   render={() => <Music/>}/>
+                            <Route path='/news'
+                                   render={() => <News/>}/>
+                            <Route path='/settings'
+                                   render={() => <Settings/>}/>
+                        </Suspense>
+                    </Switch>
                 </div>
             </div>
         );
