@@ -6,7 +6,6 @@ const SET_USER_PROFILE = 'SET_USER_PROFILE';
 const SET_STATUS = 'SET_STATUS';
 const DELETE_POST = 'DELETE_POST';
 const SAVE_PHOTO_SUCCESS = 'SAVE_PHOTO_SUCCESS';
-const SAVE_PROFILE_SUCCESS = 'SAVE_PROFILE_SUCCESS';
 
 
 let initialState = {
@@ -53,12 +52,6 @@ const profileReducer = (state = initialState, action) => {
                 profile: {...state.profile, photos: action.photos}
             };
         }
-        case SAVE_PROFILE_SUCCESS: {
-            return {
-                ...state,
-                profile: {...state.profile, profile: action.profile}
-            };
-        }
         case DELETE_POST: {
             return {
                 ...state,
@@ -75,7 +68,6 @@ export const setUserProfile = (profile) => ({type: SET_USER_PROFILE, profile})
 export const setStatus = (status) => ({type: SET_STATUS, status})
 export const deletePost = (postId) => ({type: DELETE_POST, postId})
 export const savePhotoSuccess = (photos) => ({type: SAVE_PHOTO_SUCCESS, photos})
-export const saveProfileSuccess = (profile) => ({type: SAVE_PROFILE_SUCCESS, profile})
 
 /*-------------------------THUNK--------------------------------*/
 
