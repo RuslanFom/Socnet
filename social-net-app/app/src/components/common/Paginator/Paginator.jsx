@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../../common/Paginator/Paginator.module.css";
+import ReactPaginate from 'react-paginate';
 
 
 let Paginator = ({totalUsersCount, pageSize, currentPage, onPageChanged}) => {
@@ -9,6 +10,7 @@ let Paginator = ({totalUsersCount, pageSize, currentPage, onPageChanged}) => {
     for (let i=1; i <= pagesCount; i++) {
         pages.push(i);
     }
+
 
     return <div>
             {pages.map(p => {

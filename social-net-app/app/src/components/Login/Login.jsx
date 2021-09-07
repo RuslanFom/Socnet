@@ -1,6 +1,6 @@
 import React from "react";
-import {Field, reduxForm} from "redux-form";
-import {Input} from "../common/FormsControls/FormsControls";
+import {reduxForm} from "redux-form";
+import {createField, Input} from "../common/FormsControls/FormsControls";
 import {maxLengthCreator, required} from "../../utils/validators/validators";
 import {connect} from "react-redux";
 import {login} from "../../redux/auth-reducer";
@@ -13,24 +13,10 @@ const maxLength25 = maxLengthCreator(25);
 const LoginForm = ({handleSubmit, error}) => {
     return (
         <form onSubmit={handleSubmit}>
-            <div>
-                <Field placeholder={"Email"}
-                       validate={[required, maxLength25]}
-                       name={"email"}
-                       component={Input}/>
-            </div>
-            <div>
-                <Field placeholder={"Password"}
-                       validate={[required, maxLength25]}
-                       name={"password"}
-                       type={"password"}
-                       component={Input}/>
-            </div>
-            <div>
-                <Field component={Input}
-                       name={"rememberMe"}
-                       type={"checkbox"}/>remember me
-            </div>
+            {createField("Email", "email", [required, maxLength25], Input)}
+            {createField("Password", "password", [required, maxLength25], Input, {type: "password"})}
+            {createField(null, "rememberMe", [], Input, {type: "checkbox"}, "remember me")}
+
             {error && <div className={styles.formSummeryError}>
                 {error}
             </div>}
