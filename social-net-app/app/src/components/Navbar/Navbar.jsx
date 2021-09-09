@@ -18,7 +18,7 @@ const Navbar = () => {
                 <NavLink to='/news'>News</NavLink>
             </div>
             <div className={`${s.item} ${s.active}`}>
-                <NavLink to='/music'>Music</NavLink>
+                <NavLink to='/games'>Games</NavLink>
             </div>
             <div className={`${s.item} ${s.active}`}>
                 <NavLink to='/settings'>Settings</NavLink>
