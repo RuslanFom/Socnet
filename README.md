@@ -1,6 +1,6 @@
 # Hi everyone!
-###It's my first big social network app. It's still in progress, because while studying new technologies I apply and practice on it.
-Below you can see some code examples.
+#### It's my first big social network app. It's still in progress, because while studying new technologies I apply and practice on it.
+#### Below you can see some code examples.
 
 
 
