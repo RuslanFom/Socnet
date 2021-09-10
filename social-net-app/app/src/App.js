@@ -9,7 +9,7 @@ import Preloader from "./components/common/Preloader/Preloader";
 import store from "./redux/redux-store";
 import HeaderContainer from "./components/Header/HeaderContainer";
 /*import News from "./components/News/News";
-import Games from "./components/Games/Games";
+import TestTasks from "./components/TestTasks/TestTasks";
 import Settings from "./components/Settings/Settings";
 import DialogsContainer from "./components/Dialogs/DialogsContainer";
 import UsersContainer from "./components/Users/UsersContainer";
@@ -19,7 +19,7 @@ import LoginPage from "./components/Login/Login";*/
 const DialogsContainer = React.lazy(() => import("./components/Dialogs/DialogsContainer"));
 const ProfileContainer = React.lazy(() => import("./components/Profile/ProfileContainer"));
 const News = React.lazy(() => import("./components/News/News"));
-const Games = React.lazy(() => import("./components/Games/Games"));
+const TestTasks = React.lazy(() => import("./components/TestTasks/testTasks"));
 const Settings = React.lazy(() => import("./components/Settings/Settings"));
 const UsersContainer = React.lazy(() => import("./components/Users/UsersContainer"));
 const LoginPage = React.lazy(() => import("./components/Login/Login"));
@@ -50,8 +50,8 @@ class App extends React.Component {
                                    render={() => <ProfileContainer/>}/>                  {/*":userId?" - для уточнения опционального параметра и указания "?" что он не обязательный*/}
                             <Route path='/users'
                                    render={() => <UsersContainer/>}/>
-                            <Route path='/games'
-                                   render={() => <Games/>}/>
+                            <Route path='/testTasks'
+                                   render={() => <TestTasks/>}/>
                             <Route path='/news'
                                    render={() => <News/>}/>
                             <Route path='/settings'
