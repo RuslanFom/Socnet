@@ -31,7 +31,7 @@ const usersReducer = (state = initialState, action) => {
                 ...state,
                 users: updateObjectInArray(state.users, action.userId, "id", {followed: false})
                 /*
-                ---Вот это заменили тем, что сверху. Рефакторинг. Не знаю, стоит ли так делать,
+                ---Вот это заменил тем, что сверху. Рефакторинг. Не знаю, стоит ли так делать,
                 время и опыт покажут правильность такого подхода---
                 .....................................
                 users: state.users.map(u => {
