@@ -21,7 +21,6 @@ const authReducer = (state = initialState, action: any): InitialStateType => {
         case GET_CAPTCHA_URL_SUCCESS:
             return {
                 ...state,
-                userId: "rrrs",
                 ...action.payload
             }
 
