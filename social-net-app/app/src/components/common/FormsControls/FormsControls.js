@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./FormsControls.module.css";
 import {Field} from "redux-form";
 

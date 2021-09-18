@@ -1,9 +1,9 @@
-import React, {useState} from 'react';
 import s from './ProfileInfo.module.css';
 import Preloader from "../../common/Preloader/Preloader";
 import ProfileStatusWithHooks from "./ProfileStatusWithHooks";
 import images from "./../../../assets/images/images.png";
 import ProfileDataForm from "./ProfileDataForm";
+import {useState} from "react";
 
 const ProfileInfo = ({profile, status, updateStatus, isOwner, savePhoto, saveProfile}) => {
 
@@ -29,7 +29,8 @@ const ProfileInfo = ({profile, status, updateStatus, isOwner, savePhoto, savePro
     return (
         <div>
             <div className={s.descriptionBlock}>
-                <img src={profile.photos.large || images} className={s.ruslanFace}/>
+                {/* eslint-disable-next-line jsx-a11y/alt-text,jsx-a11y/img-redundant-alt */}
+                <img src={profile.photos.large || images} className={s.ruslanFace} alt={'photo'}/>
                 {isOwner && <input type={"file"} onChange={onMainPhotoSelected}/>}
 
                 {editMode

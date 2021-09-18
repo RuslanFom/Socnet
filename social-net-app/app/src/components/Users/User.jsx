@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./users.module.css";
 import userPhoto from "../../assets/images/images.png";
 import {NavLink} from "react-router-dom";
@@ -10,8 +9,9 @@ let User = ({user, followingInProgress, unfollow, follow}) => {
                 <span>
                     <div>
                         <NavLink to={'/profile/' + user.id}>
+                            {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
                         <img src={user.photos.small != null ? user.photos.small : userPhoto}
-                             className={styles.userPhoto}/>
+                             className={styles.userPhoto} alt={'photo'}/>
 
                         </NavLink>
                     </div>

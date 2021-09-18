@@ -1,4 +1,3 @@
-import React from 'react';
 import s from './Header.module.css';
 import viking from '../../assets/images/viking.png'
 import {NavLink} from "react-router-dom";
