@@ -1,3 +1,4 @@
+/*
 import profileReducer from "./profileReducer";
 import dialogsReducer from "./dialogsReducer";
 import sidebarReducer from "./sidebarReducer";
@@ -60,4 +61,4 @@ window.store = analogOfReduxStore;
 export default analogOfReduxStore;
 
 
-//analogOfReduxStore is OOP
+//analogOfReduxStore is OOP*/
