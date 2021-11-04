@@ -3,17 +3,17 @@
 #### Below you can see some code examples.
 
 Contents:
-- Main <a name="Main"></a>   
-- <a name="Types"></a>  
-- <a name="Login"></a>  
-- <a name="API"></a>  
-- <a name="Redux"></a>
-- <a name="Test"></a>
-- <a name="Profile"></a>
-- <a name="User"></a>
-- <a name="Dialogs"></a>
-- <a name="Header"></a> 
-- <a name="Common"></a> 
+- <a name="Main">Main</a>   
+- <a name="Types">Types</a>  
+- <a name="Login">Login</a>  
+- <a name="API">API</a>  
+- <a name="Redux">Redux</a>
+- <a name="Test">Test</a>
+- <a name="Profile">Profile</a>
+- <a name="User">User</a>
+- <a name="Dialogs">Dialogs</a>
+- <a name="Header">Header</a> 
+- <a name="Common">Common</a> 
 
 # Examples of the code
 ["Main"](##Main)
