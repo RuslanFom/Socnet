@@ -3,7 +3,7 @@
 #### Below you can see some code examples.
 
 Contents:
-- <a name="Main">Main</a>   
+- ["Main"](##Main)   
 - <a name="Types">Types</a>  
 - <a name="Login">Login</a>  
 - <a name="API">API</a>  
@@ -16,7 +16,7 @@ Contents:
 - <a name="Common">Common</a> 
 
 # Examples of the code
-["Main"](##Main)
+<a name="Main">Main</a> 
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/App.png)
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/App2.png)
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/App3.png)
