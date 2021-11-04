@@ -13,7 +13,7 @@ Contents:
 - <a name="User">User</a>
 - <a name="Dialogs">Dialogs</a>
 - <a name="Header">Header</a> 
-- ["Common"](##Common) 
+- ["Common"](#Common) 
 
 # Examples of the code
 <a name="Main">Main</a> 
