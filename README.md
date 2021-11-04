@@ -3,41 +3,41 @@
 #### Below you can see some code examples.
 
 Contents:
-- ["Main"](##Main)   
-- <a name="Types">Types</a>  
-- <a name="Login">Login</a>  
-- <a name="API">API</a>  
-- <a name="Redux">Redux</a>
-- <a name="Test">Test</a>
-- <a name="Profile">Profile</a>
-- <a name="User">User</a>
-- <a name="Dialogs">Dialogs</a>
-- <a name="Header">Header</a> 
+- ["Main"](#Main)   
+- ["Types"](#Types)
+- ["Login"](#Login)  
+- ["API"](#API)  
+- ["Redux"](#Redux)
+- ["Test"](#Test)
+- ["Profile"](#Profile)
+- ["User"](#User)
+- ["Dialogs"](#Dialogs)
+- ["Header"](#Header) 
 - ["Common"](#Common) 
 
 # Examples of the code
-<a name="Main">Main</a> 
+# Main<a name="Main"></a> 
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/App.png)
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/App2.png)
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/App3.png)
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/index.png)
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/Navbar.png)
 
-["Types"](##Types)
+# Types<a name="Types"></a>
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/types.png)
 
-["Login"](##Login)
+# Login<a name="Login"></a>
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/login.png)
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/login2.png)
 
-["API"](##API)
+# API<a name="API"></a>
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/api.png)
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/authApi.png)
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/profileApi.png)
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/securityApi.png)
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/usersApi.png)
 
-["Redux"](##Redux)
+# Redux<a name="Redux"></a>
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/redux-store.png)
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/auth-reducer.png)
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/auth-reducer2.png)
@@ -53,12 +53,12 @@ Contents:
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/users-reducer4.png)
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/app-reducer.png)
 
-["Test"](##Test)
+# Test<a name="Test"></a>
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/profileReducerTest.png)
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/profileReducerTest2.png)
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/app.test.png)
 
-["Profile"](##Profile)
+# Profile<a name="Profile"></a>
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/ProfileContainer.png)
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/ProfileContainer2.png)
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/profile.png)
@@ -74,7 +74,7 @@ Contents:
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/mypost2.png)
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/mypostContainer.png)
 
-["User"](##User)
+# User<a name="User"></a>
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/UserContainer.png)
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/UserContainer2.png)
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/UserContainer3.png)
@@ -83,12 +83,12 @@ Contents:
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/users-selectors.png)
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/users.png)
 
-["Dialogs"](##Dialogs)
+# Dialogs<a name="Dialogs"></a>
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/dialogs.png)
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/dialogsContainer.png)
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/addMessageForm.png)
 
-["Header"](##Header)
+# Header<a name="Header"></a>
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/Header.png)
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/HeaderContainer.png)
 
