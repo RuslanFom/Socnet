@@ -92,7 +92,7 @@ Contents:
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/Header.png)
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/HeaderContainer.png)
 
-# <a name="Common">Common</a> 
+# Common<a name="Common"></a> 
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/formsControl.png)
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/object-helpers.png)
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/validators.png)
