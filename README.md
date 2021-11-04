@@ -3,7 +3,7 @@
 #### Below you can see some code examples.
 
 Contents:
-- <a name="Main"></a>   
+- Main <a name="Main"></a>   
 - <a name="Types"></a>  
 - <a name="Login"></a>  
 - <a name="API"></a>  
