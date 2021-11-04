@@ -2,7 +2,7 @@
 #### It's my first big social network app. It's still in progress, because while studying new technologies I apply and practice on it.
 #### Below you can see some code examples.
 
-Contents:
+## Contents:
 - ["Main"](#Main)   
 - ["Types"](#Types)
 - ["Login"](#Login)  
