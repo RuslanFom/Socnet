@@ -13,7 +13,7 @@ Contents:
 - <a name="User">User</a>
 - <a name="Dialogs">Dialogs</a>
 - <a name="Header">Header</a> 
-- <a name="Common">Common</a> 
+- ["Common"](##Common) 
 
 # Examples of the code
 <a name="Main">Main</a> 
@@ -92,7 +92,7 @@ Contents:
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/Header.png)
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/HeaderContainer.png)
 
-["Common"](##Common)
+<a name="Common">Common</a> 
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/formsControl.png)
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/object-helpers.png)
 ![Image alt](https://github.com/RuslanFom/Socnet/blob/master/ImgCode/validators.png)
